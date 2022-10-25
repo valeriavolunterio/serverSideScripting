@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Suki's World</title>
+    <link rel="stylesheet" href="https://use.typekit.net/ecf1yje.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script type="module" src="./components/Comment.js"></script>
+    <script type="module" src="./components/comments.js"></script>
+    <script type="module" src="script.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <h1>Suki's World</h1>
+    </header>
+
+    <div class="blogPost">
+        <h2>Today's agenda</h2>
+        <div class="blogger">
+            <img src="https://valeriavolunterio.github.io/projects/assignment2/img/suki.jpg" alt="photo of cat">
+            <p>Posted by Suki</p>
+        </div>
+        <article>
+        I had a busy day today and figured I'd share everything I did. As the saying goes: "early bird gets the worm" so at 6 a.m. I decided to start pawing at Valeria's face to give me food. You always have to make sure you can't see the bottom of the bowl. Then, I decided I wasn't actually hungry and went to sleep. I napped for most of the day before waking up and running around, eating, and going back to sleep. As Valeria was working on her project, I decided to begin my tried and true method of meowing and annoying her to give me more food... which I decided not to eat.
+        </article>
+        <article>
+        In other news, I have so created an instagram since many of you have been asking. I don't know how often I will post on there, but you can follow me. I've added a link to the homepage. Let me know if you'd like to see me on any other social media platfforms.
+        </article>
+    </div>
+
+    <div id="comments">
+        <h3>Comments</h3>
+        <hr>
+        <div>
+            <form id="commentForm">
+                <label for="comment" id="formTitle">Leave a reply:</label><br>
+                <textarea id="comment" name="comment" value="" required></textarea>
+                <label>
+                    E-mail:
+                    <input id="email" type="text" name="email" value="" required>
+                </label>
+                <label>
+                    Post as:
+                    <input id="username" type="text" name="username" value="" required>
+                </label>
+                <button id="submitBtn" type="submit">Submit</button>
+            </form>
+        </div>
+        <div id="allComments">
+        </div>
+    </div>
+  </body>
+</html>
