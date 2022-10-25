@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What JavaScript function prints its arguments to standard out?",
+    "possibleAnswers": [
+      "process.standardout",
+      "console.write",
+      "process.stdout.write",
+      "process.write"
+    ],
+    "correctAnswer": 2
+  },
+  {
+    "question": "What is the \".\" character mean with respect to linux file paths?",
+    "possibleAnswers": [
+      "Current direcory",
+      "Parent directory",
+      "Home directory",
+      "Root directory"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "Which of the following statements are true?",
+    "possibleAnswers": [
+      "Node.js is a server-side language",
+      "Node.js is a client-side language",
+      "Node.js is both a server and client-side language",
+      "None of the above"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "question": "What is a callback?",
+    "possibleAnswers": [
+      "A technique in which a method calls back the caller method",
+      "An asynchronous equivalent for a function",
+      "Both of the above",
+      "None of the above"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "question": "What does the fs module stand for?",
+    "possibleAnswers": [
+      "File Service",
+      "File Store",
+      "File Sharing",
+      "File System"
+    ],
+    "correctAnswer": 3
+  }
+]
